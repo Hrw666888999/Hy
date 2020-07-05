@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>开始使用混合组件</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--移动App自适应-->
+		<link rel="stylesheet" type="text/css" href="css/layui.css" />
+		<!--layui组件-->
+		<link rel="stylesheet" type="text/css" href="css/mui.css" />
+		<!--mui组件-->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<!--bootstrap-->
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css" />
+		<!--阿里巴巴矢量图标-->
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	</head>
+
+	<body>
+		<!--头部-->
+		<header>
+			<div class="container">
+				<div class="row address-bar">
+					<div class="col-xs-1">
+						<div class="site">
+							<i class="iconfont icon-map"></i>
+						</div>
+					</div>
+
+					<div class="col-xs-10">
+						<form  class="form-horizontal">
+							<span class="search-icon">
+								<i class="iconfont icon-sousuo"></i>
+							</span>
+							<input type="text"  placeholder="车厘子">
+						</form>
+					</div>
+
+					<div class="col-xs-1">
+						<div class="sand-clock">
+							<i class="iconfont icon-saoma"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section>
+			<div class="container hugescreen">
+				<div class="jumbotron">
+					<strong>红色系水果<span>|</span></strong>
+					<div>进入主题</div>
+				</div>
+				<div class="row presell">
+					<div class="col-xs-5">
+						<div>
+							<h5 class="special">
+								专题预售
+							</h5>
+							<p>试过只读大叔大婶</p>
+							<p>试过只读大叔大婶</p>
+						</div>
+					</div>
+					<div class="col-xs-3 str">
+						<div>
+							<h5 class="special">邀请好友30元红包等你拿</h5>
+						</div>
+					</div>
+					<div class="col-xs-3">
+						<div>
+							<h6 class="special">专题预售</h6>
+						</div>
+					</div>
+				</div>
+
+				<div class="row soon-the-putting">
+					<div class="col-xs-3">
+						<div class="wall-bulletin text-center">鲜果快报</div>
+					</div>
+					<div class="col-xs-9 the-clues">
+						<code class="today">今日</code>|
+						<p>今年的砂糖橘，为何这么的清甜</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+				<div class="mui-card">
+					<div class="mui-card-header">拼团预售
+						<div id="line-items">产地直销·品质选择</div>
+					</div>
+					<div class="mui-card-content">
+						<div class="col-xs-3">
+							<div class="imgStr">
+								<img src="images/甘肃苹果.jpg" />
+							</div>
+						</div>
+
+						<div class="col-xs-8">
+							<div class="content price-box">
+								<h4 class="price">甘肃宁静苹果*6约5斤</h4>
+								<strong class="price " id="price-Color">￥30.0</strong><span class="price">/份</span>
+
+								<div class="clearfix">
+									<div class="progress-bar">
+										<div class="progress"></div>
+									</div>
+									<div class="sold">
+										<p class="price">已售2600份<span class="price">6天内发货</span></p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="mui-card">
+					<div class="mui-card-header">热卖优惠
+						<div id="line-items">人气热销·大众喜欢</div>
+					</div>
+					<div class="mui-card-content-1">
+						<div class="row prederential-bar">
+							<div class="col-xs-3">
+								<div class="img1"><img src="images/砂糖橘1.jpg"></div>
+								<h5 class="price">广东四合砂糖橘</h5>
+								<strong class="price " id="price-Color">￥30.0</strong><span class="price">/份</span>
+							</div>
+							<div class="col-xs-3">
+								<div class="img1"><img src="images/车厘子1.jpg"></div>
+								<h5 class="price">智利JJ级车厘子啦啦</h5>
+								<strong class="price " id="price-Color">￥30.0</strong><span class="price">/份</span>
+							</div>
+							<div class="col-xs-3">
+								<div class="img1"><img src="images/圣女果1.jpg"></div>
+								<h5 class="price">海南陵水圣女果啦啦啦</h5>
+								<strong class="price " id="price-Color">￥30.0</strong><span class="price">/份</span>
+							</div>
+						</div>
+
+						<div class="row prederential-bar">
+							<div class="col-xs-3">
+								<div class="img1"><img src="images/香瓜.jpg"></div>
+								<h5 class="price">海南玉菇甜瓜*2啦啦啦</h5>
+								<strong class="price " id="price-Color">￥30.0</strong><span class="price">/份</span>
+							</div>
+							<div class="col-xs-3">
+								<div class="img1"><img src="images/橙子1.jpg"></div>
+								<h5 class="price">湖南麻阳冰糖橙子啦啦</h5>
+								<strong class="price " id="price-Color">￥30.0</strong><span class="price">/份</span>
+							</div>
+							<div class="col-xs-3">
+								<div class="img1"><img src="images/蓝莓.jpg"></div>
+								<h5 class="price">智利草莓*1盒啦啦啦啦</h5>
+								<strong class="price " id="price-Color">￥30.0</strong><span class="price">/份</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="mui-card">
+					<div class="mui-card-header">时令新上
+						<div id="line-items">庄园好果·优质果园</div>
+					</div>
+
+					<div class="row">
+						<div class="mui-card-content">
+							<div class="col-xs-3">
+								<div class="imgStr1">
+									<img src="images/百香果2.jpg" />
+								</div>
+							</div>
+
+							<div class="col-xs-8">
+								<div class="content price-box">
+									<h2 class="price-parti">广西百香果*5约500g</h2>
+									<div class="particular">
+										<span>果肉细腻，香甜可口，果粒动人</span>
+										<span>采购日期：06.16</span>
+									</div>
+									<strong class="price" id="price-Color">￥25.0</strong>
+									<span class="price">/份</span>
+									<!--</div>-->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="mui-card-content">
+							<div class="col-xs-3">
+								<div class="imgStr1">
+									<img src="images/法国苹果.jpg" />
+								</div>
+							</div>
+							<div class="col-xs-8">
+								<div class="content price-box">
+									<h2 class="price-parti">法国嘎啦苹果*8约800g</h2>
+									<div class="particular">
+										<span>果肉细腻，香甜可口，果粒动人</span>
+										<span>采购日期：06.16</span>
+									</div>
+									<strong class="price" id="price-Color">￥39.9</strong>
+									<span class="price">/份</span>
+									<!--</div>-->
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--bottom-->
+				</div>
+			</div>
+		</section>
+
+		<!--
+			<header>    头部标签
+			<nav>		导航标签
+			<article>	内容标签
+			<section>	块级标签
+			<aside>		侧边栏标签
+			<footer>	尾部标签-->
+
+		<article>
+			<!--为您推荐-->
+			<div class="container">
+				<div class="mui-card">
+					<div class="mui-card-header " id="panl-cen">为您推荐</div>
+					<div class="mui-card-content">
+						<div class="row prederential-bar for-you">
+							<div class="col-xs-6">
+								<div class="img2">
+									<img src="images/猕猴桃1.jpg" />
+								</div>
+								<h5 class="price">百瑞猕猴桃*原箱22个</h5>
+								<strong class="price " id="price-Color">￥54.9</strong><span class="price">/份</span>
+							</div>
+							<div class="col-xs-6">
+								<div class="img2">
+									<img src="images/牛油果.jpg" />
+								</div>
+								<h5 class="price">墨西哥牛油果*3个 约...</h5>
+								<strong class="price " id="price-Color">￥29.9</strong><span class="price">/份</span>
+							</div>
+						</div>
+
+						<div class="row prederential-bar for-you">
+							<div class="col-xs-6">
+								<div class="img2">
+									<img src="images/枇杷1.jpg" />
+								</div>
+								<h5 class="price">云南蒙自枇杷 约400g</h5>
+								<strong class="price " id="price-Color">￥40.0</strong><span class="price">/份</span>
+							</div>
+							<div class="col-xs-6">
+								<div class="img2">
+									<img src="images/香瓜.jpg" />
+								</div>
+								<h5 class="price">甘肃黄蕉苹果*6个 约2斤</h5>
+								<strong class="price " id="price-Color">￥150.0</strong><span class="price">/份</span>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</article>
+		<!--底部按钮-->
+
+		<footer class="mui-bar mui-bar-tab">
+			<div class="container">
+				<a class="mui-tab-item mui-active">
+					<i class="iconfont icon-shouye"></i>
+				</a>
+				<a class="mui-tab-item">
+					<i class="iconfont icon-fenlei"></i>
+				</a>
+				<a class="mui-tab-item">
+					<i class="iconfont icon-gouwuche"></i>
+				</a>
+				<a class="mui-tab-item">
+					<i class="iconfont icon-changyonglianxiren"></i>
+				</a>
+			</div>
+		</footer>
+	
+	</body>
+
+</html>

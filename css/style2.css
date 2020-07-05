@@ -1,0 +1,171 @@
+		.iconfont {
+			font-family: "iconfont" !important;
+			font-style: normal;
+			-webkit-font-smoothing: antialiased;
+			-webkit-text-stroke-width: 0.2px;
+			-moz-osx-font-smoothing: grayscale;
+			/*font-size: 16px;*/
+			color: white;
+		}
+		
+		* {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			text-decoration: none;
+			box-sizing: border-box;
+		}
+		
+		header {
+			width: 100%;
+			height: 40px;
+			background: white;
+			position: fixed;
+			overflow: hidden;
+			z-index: 10;
+		}
+		
+		.address-bar [class*=col-xs-1] {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			cursor: pointer;
+		}
+		
+		.address-bar form {
+			display: inline-block;
+			width: 100%;
+			line-height: 40px;
+			position: relative;
+		}
+		
+		input[type=text] {
+			border-radius: 20px;
+			text-indent: 1.5em;
+			height: 25px;
+			/*background: grey;*/
+		}
+		
+		.icon-sousuo,
+		.icon-shaixuanshalou {
+			color: grey;
+		}
+		
+		.search-icon {
+			position: absolute;
+			left: 15px;
+			display: inline-block;
+		}
+		
+		.site,
+		.sand-clock {
+			margin-top: 9px;
+		}
+		
+		.site {
+			margin-left: 14px;
+		}
+		
+		.sand-clock {
+			margin-right: 14px;
+		}
+		/*选择卡 start*/
+		
+		.side-navigation {
+			display: flex;
+			position: fixed;
+			left: 0;
+			width: 25%;
+			top: 6%;
+			flex-direction: column;
+			/*垂直方向*/
+		}
+		
+		.side-navigation li {
+			width: 100%;
+			height: 45px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: #F6F6F6;
+		}
+		
+		.side-navigation li a {
+			color: black;
+			text-decoration: none;
+		}
+		
+		.side-navigation li:hover {
+			background: #fff;
+		}
+		
+		.side-navigation li code {
+			background: red;
+			color: white;
+		}
+		/*end*/
+		
+		.content-portion {
+			display: flex;
+			width: 100%;
+			height: 1000px;
+			flex-direction: column;
+		}
+		
+		.one {
+			right: -25%;
+			top: 4%;
+			width: 77%;
+			height: 100px;
+			position: relative;
+			/*background: greenyellow;*/
+			box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+			margin-bottom: 6px;
+		}
+		
+		.one .imgStr1 {
+			width: 50px;
+			height: 50px;
+			background: yellow;
+			margin-top: 5%;
+			position: absolute;
+			left: 4%;
+			border-radius: 50%;
+		}
+		
+		.imgStr2 {
+			width: 50px;
+			height: 50px;
+			background: red;
+			margin-top: 5%;
+			position: absolute;
+			left: 4%;
+			border-radius: 50%;
+		}
+		
+		.one .price-box {
+			position: absolute;
+			right: 2%;
+			font-size: 10px;
+		}
+		
+		.one #price-Color {
+			color: red;
+		}
+		
+		.one .particular {
+			margin-top: 13%;
+		}
+		/*end*/
+		
+		.content-portion [class*=one-] {
+			display: none;
+		}
+		
+		.table-item {
+			display: none;
+		}
+		
+		.show {
+			display: block;
+		}

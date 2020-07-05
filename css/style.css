@@ -1,0 +1,347 @@
+.iconfont {
+			font-family: "iconfont" !important;
+			font-style: normal;
+			-webkit-font-smoothing: antialiased;
+			-webkit-text-stroke-width: 0.2px;
+			-moz-osx-font-smoothing: grayscale;
+			/*font-size: 16px;*/
+			color: white;
+		}
+		
+		.icon-map,
+		.icon-saoma {
+			font-size: 25px;
+		}
+		
+		.icon-shouye,
+		.icon-fenlei,
+		.icon-gouwuche,
+		.icon-changyonglianxiren{
+			color: #708090;
+		}
+		.icon-shouye{
+			color: red;
+		}
+		
+		.mui-bar .mui-tab-item:hover .iconfont{
+			color: red;
+		}
+		* {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			text-decoration: none;
+			color: white;
+		}
+		/*头部*/
+		.address-bar {
+			height: 100px;
+			background: black;
+		}
+		
+		.address-bar [class^=col-xs-1] {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			cursor: pointer;
+		}
+		
+		.address-bar form {
+			display: inline-block;
+			width: 100%;
+			line-height: 50px;
+			position: relative;
+		}
+		
+		input[type=text] {
+			border-radius: 20px;
+			text-indent: 1.5em;
+			height: 25px;
+			background: grey;
+		}
+		/*更改placeholder的color，以及兼容性*/
+		
+		input::-webkit-input-placeholder {
+			color: white;
+		}
+		
+		input::-moz-placeholder {
+			/* Mozilla Firefox 19+ */
+			color: white;
+		}
+		
+		input:-moz-placeholder {
+			/* Mozilla Firefox 4 to 18 */
+			color: white;
+		}
+		
+		input:-ms-input- placeholder {
+			/* Internet Explorer 10-11 */
+			color: white;
+		}
+		
+		.search-icon {
+			position: absolute;
+			left: 15px;
+			display: inline-block;
+		}
+		
+		.site,
+		.sand-clock {
+			margin-top: 9px;
+		}
+		
+		.site {
+			margin-left: 14px;
+		}
+		
+		.sand-clock {
+			margin-right: 14px;
+		}
+		
+		.hugescreen {
+			position: relative;
+			top: -50px;
+		}
+		
+		.jumbotron {
+			height: 200px;
+			background-image: url(../images/红色系水果.jpg);
+			background-size: 100% 100%;
+		}
+		
+		.presell {
+			margin: 0;
+		}
+		
+		.presell [class^=col-xs] {
+			background-color: orangered;
+			height: 100px;
+			border-radius: 5px;
+		}
+		
+		.presell [class*=col-xs-3] {
+			background-color:orange;
+			height: 100px;
+		}
+		/*邀请好友*/
+		
+		.presell .str {
+			margin: 0 13px;
+		}
+		
+		.presell .special {
+			text-align: center;
+		}
+		
+		.soon-the-putting {
+			margin: 20px 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		.wall-bulletin {
+			color: red;
+			font-weight: 800;
+			font-size: 14px;
+		}
+		
+		.today {
+			color: orange;
+		}
+		
+		.the-clues {
+			background-color: #C0C0C0;
+			border-radius: 5px;
+			font-size: 10px;
+			height: 25px;
+		}
+		
+		.the-clues p {
+			display: inline-block;
+			color: black;
+			font-size: 10px;
+			line-height: 25px;
+		}
+		
+		.mui-card-header {
+			color: black;
+		}
+		
+		.mui-card-header {
+			font-weight: 800;
+		}
+		/*进度条*/
+		
+		.clearfix {
+			position: relative;
+		}
+		
+		.clearfix:after {
+			content: '92%';
+			position: absolute;
+			right: 20px;
+			top: 12px;
+			color: black;
+			opacity: .6;
+			font-size: 10px;
+		}
+		#line-items{
+			position: absolute;
+			right: 10px;
+			display: inline-block;
+			z-index: 12;
+			color: #888888;
+			opacity: 0.8;
+			font-weight: 100;
+			font-size: 10px;
+		}
+		.progress-bar {
+			/* 进度条的槽 */
+			width: 70%;
+			height: 3px;
+			/*进度条外层div的背景色，进度未达到的地方的颜色 */
+			background-color: #f9e1e3;
+			border-radius: 3px;
+			margin-top: 20px;
+		}
+		
+		.progress {
+			/* 进度部分 */
+			/* 利用继承父元素宽度的百分比控制进度 */
+			width: 92.1%;
+			height: 100%;
+			/* 内层背景色即进度达到的颜色 */
+			background-color: #FF0000;
+			border-radius: 3px;
+		}
+		
+		.imgStr1 ,.imgStr {
+			width: 100px;
+			height: 100px;
+			/*background-color: royalblue;*/
+			background-size: 100% 100%;
+			border-radius: 50%;
+			margin-top: 15px;
+			margin-bottom: 10px;
+		}
+		.imgStr1 img ,.imgStr img{
+			width: 100%;
+			height: 100%;
+		}
+		#price-Color {
+			font-weight: 700;
+			color: red;
+			font-size: 12px;
+		}
+		
+		.price-box {
+			position: relative;
+			right: -25%;
+		}
+		
+		.sum,
+		.price,
+		.progress {
+			color: black;
+			font-size: 10px;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+		}
+		
+		.sold {
+			position: absolute;
+			top: 35px;
+			/*display: flex;
+   			justify-content: center;
+   			align-items: center;*/
+		}
+		
+		.sold span {
+			display: inline-block;
+			position: absolute;
+			right: -100px;
+		}
+		/*优惠栏*/
+		.prederential-bar{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			padding-top:20px ;
+			position: relative;
+		}
+		.prederential-bar h6{
+			display: block;
+			color: black;
+			font-weight: 600;
+			margin: 5px 0;
+			font-size: 8px;
+		}
+		.img2,.img1{
+			width: 80px;
+			height: 80px;
+			border-radius: 50%;
+			/*background: pink;*/
+		}
+		.img2 img,.img1 img{
+			width: 100%;
+			height: 100%;
+			border-radius: 50%;
+		}
+		.page-header,.price1{
+			color: black;
+			position: relative;
+		}
+		.mui-card-content-1{
+			margin-bottom: 10px;
+		}
+		.particular span{
+			display: block;
+			margin-top: 5px;
+			color: black;
+			font-size: 10px;
+			opacity: .3;
+		}
+		.particular span:nth-child(2){
+			display: block;
+			margin-bottom: 15px;
+		}
+		.price-parti{
+			font-size: 16px;
+			font-weight: 800;
+			color: black;
+		}
+		.imgStr1 {
+			margin-left: 10px;
+		}
+		#panl-cen{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+		}
+		#panl-cen:after,
+		#panl-cen:before{
+			content: "";
+			height: 1px;
+			width: 10%;
+			background: grey;
+			display: inline-block;
+			position: absolute;
+			right: 88px;
+		}
+		#panl-cen:after{
+			left: 88px;
+			top: 22px;
+		}
+		.for-you [class*=col-xs] {
+			margin-left: 10%;
+		}
+		body{
+		height: 1820px;
+		}
+		.mui-bar{
+			background: white;
+		}
